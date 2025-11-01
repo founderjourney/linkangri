@@ -1,6 +1,6 @@
 // Core types for LinkAngri platform
 
-export type CuisineType = 'japanese' | 'italian' | 'mexican' | 'coffee' | 'general'
+export type CuisineType = 'japanese' | 'italian' | 'mexican' | 'coffee' | 'general' | 'barber' | 'spa' | 'floreria' | 'nails'
 
 export interface Restaurant {
   id: string

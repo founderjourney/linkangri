@@ -45,6 +45,30 @@ export default function HomePage() {
               <h3 className="text-lg font-semibold mb-2">Templates Café</h3>
               <p className="text-gray-600 text-sm">Diseño moderno y minimalista</p>
             </div>
+
+            <div className="card text-center">
+              <div className="text-4xl mb-4">💈</div>
+              <h3 className="text-lg font-semibold mb-2">Templates Barbería</h3>
+              <p className="text-gray-600 text-sm">Estilo vintage y masculino</p>
+            </div>
+
+            <div className="card text-center">
+              <div className="text-4xl mb-4">💅</div>
+              <h3 className="text-lg font-semibold mb-2">Templates Salón de Uñas</h3>
+              <p className="text-gray-600 text-sm">Diseño chic y moderno</p>
+            </div>
+
+            <div className="card text-center">
+              <div className="text-4xl mb-4">🌸</div>
+              <h3 className="text-lg font-semibold mb-2">Templates Florería</h3>
+              <p className="text-gray-600 text-sm">Elegancia floral y natural</p>
+            </div>
+
+            <div className="card text-center">
+              <div className="text-4xl mb-4">✨</div>
+              <h3 className="text-lg font-semibold mb-2">Templates Spa</h3>
+              <p className="text-gray-600 text-sm">Ambiente relajante y fresco</p>
+            </div>
           </div>
 
           {/* Demo Links */}
@@ -76,6 +100,31 @@ export default function HomePage() {
                 className="btn-primary bg-coffee-primary hover:bg-coffee-primary/90"
               >
                 ☕ Demo Café
+              </Link>
+
+              <Link
+                href="/demo/the-gentleman-barber"
+                className="btn-primary bg-stone-800 hover:bg-stone-700"
+              >
+                💈 Demo Barbería
+              </Link>
+              <Link
+                href="/demo/nails-art-studio"
+                className="btn-primary bg-pink-500 hover:bg-pink-400"
+              >
+                💅 Demo Uñas
+              </Link>
+              <Link
+                href="/demo/floreria-petalos"
+                className="btn-primary bg-emerald-500 hover:bg-emerald-400"
+              >
+                🌸 Demo Florería
+              </Link>
+              <Link
+                href="/demo/belleza-spa"
+                className="btn-primary bg-teal-500 hover:bg-teal-400"
+              >
+                ✨ Demo Spa
               </Link>
             </div>
           </div>

@@ -3,6 +3,10 @@ import JapaneseTemplate from '@/components/templates/JapaneseTemplate'
 import ItalianTemplate from '@/components/templates/ItalianTemplate'
 import MexicanTemplate from '@/components/templates/MexicanTemplate'
 import CoffeeTemplate from '@/components/templates/CoffeeTemplate'
+import BarberiaTemplate from '@/components/templates/barberia'
+import SalonBellezaTemplate from '@/components/templates/salonbelleza'
+import FloreriaTemplate from '@/components/templates/floreria'
+import NailsTemplate from '@/components/templates/nails'
 import { Restaurant, MenuItem } from '@/types'
 
 // Demo data for different restaurant types
@@ -518,6 +522,102 @@ const demoRestaurants: Record<string, { restaurant: Restaurant; menuItems: MenuI
         updatedAt: new Date(),
       }
     ]
+  },
+
+  'the-gentleman-barber': {
+    restaurant: {
+      id: 'demo-5',
+      slug: 'the-gentleman-barber',
+      name: 'The Gentleman Barber',
+      phone: '+34666777892',
+      whatsapp: '+34666777892',
+      address: 'Calle del Estilo 15, Distrito Urbano',
+      hours: 'Lun-Sáb: 10:00 - 20:00',
+      theme: 'barber',
+      password: 'admin123',
+      description: 'Cortes de pelo y afeitados con un toque clásico',
+      logoUrl: undefined,
+      colors: undefined,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    menuItems: [
+      { id: 'b1', name: 'Corte de Caballero', price: '25.00', category: 'cortes', description: 'Corte a tijera y máquina, lavado y peinado.', available: true, order: 1, restaurantId: 'demo-5', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 'b2', name: 'Afeitado Clásico', price: '20.00', category: 'barba', description: 'Afeitado con navaja, toallas calientes y masaje facial.', available: true, order: 2, restaurantId: 'demo-5', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 'b3', name: 'Arreglo de Barba', price: '15.00', category: 'barba', description: 'Diseño y perfilado de barba.', available: true, order: 3, restaurantId: 'demo-5', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+    ]
+  },
+
+  'belleza-spa': {
+    restaurant: {
+      id: 'demo-6',
+      slug: 'belleza-spa',
+      name: 'Belleza & Spa',
+      phone: '+34666777893',
+      whatsapp: '+34666777893',
+      address: 'Avenida de la Relajación 33, Zona Zen',
+      hours: 'Mar-Dom: 10:00 - 21:00',
+      theme: 'spa',
+      password: 'admin123',
+      description: 'Un oasis de tranquilidad y belleza',
+      logoUrl: undefined,
+      colors: undefined,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    menuItems: [
+      { id: 's1', name: 'Masaje Relajante', price: '60.00', category: 'masajes', description: 'Masaje de 60 minutos para aliviar el estrés.', available: true, order: 1, restaurantId: 'demo-6', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 's2', name: 'Limpieza Facial Profunda', price: '45.00', category: 'faciales', description: 'Limpieza e hidratación profunda de la piel.', available: true, order: 2, restaurantId: 'demo-6', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 's3', name: 'Manicura y Pedicura', price: '35.00', category: 'especiales', description: 'Cuidado completo de manos y pies.', available: true, order: 3, restaurantId: 'demo-6', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+    ]
+  },
+
+  'floreria-petalos': {
+    restaurant: {
+      id: 'demo-7',
+      slug: 'floreria-petalos',
+      name: 'Florería Pétalos',
+      phone: '+34666777894',
+      whatsapp: '+34666777894',
+      address: 'Calle de las Flores 7, Jardín Central',
+      hours: 'Lun-Sáb: 09:00 - 19:00',
+      theme: 'floreria',
+      password: 'admin123',
+      description: 'Arreglos florales para toda ocasión',
+      logoUrl: undefined,
+      colors: undefined,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    menuItems: [
+      { id: 'f1', name: 'Ramo de Rosas', price: '35.00', category: 'ramos', description: 'Docena de rosas rojas frescas.', available: true, order: 1, restaurantId: 'demo-7', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 'f2', name: 'Arreglo Primaveral', price: '50.00', category: 'arreglos', description: 'Mix de flores de temporada.', available: true, order: 2, restaurantId: 'demo-7', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 'f3', name: 'Orquídea Phalaenopsis', price: '45.00', category: 'plantas', description: 'Planta de orquídea en maceta de cerámica.', available: true, order: 3, restaurantId: 'demo-7', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+    ]
+  },
+
+  'nails-art-studio': {
+    restaurant: {
+      id: 'demo-8',
+      slug: 'nails-art-studio',
+      name: 'Nails Art Studio',
+      phone: '+34666777895',
+      whatsapp: '+34666777895',
+      address: 'Avenida de la Belleza 12, Salón Principal',
+      hours: 'Mar-Sáb: 10:00 - 20:00',
+      theme: 'nails',
+      password: 'admin123',
+      description: 'El arte de la manicura en tus manos',
+      logoUrl: undefined,
+      colors: undefined,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    menuItems: [
+      { id: 'n1', name: 'Manicura Completa', price: '20.00', category: 'manicura', description: 'Limado, cutículas, esmaltado y masaje.', available: true, order: 1, restaurantId: 'demo-8', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 'n2', name: 'Uñas de Gel', price: '40.00', category: 'gel', description: 'Esmaltado semipermanente con la forma que desees.', available: true, order: 2, restaurantId: 'demo-8', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+      { id: 'n3', name: 'Nail Art - Diseño', price: '5.00', category: 'disenos', description: 'Precio por uña. Diseños personalizados.', available: true, order: 3, restaurantId: 'demo-8', createdAt: new Date(), updatedAt: new Date(), imageUrl: undefined },
+    ]
   }
 }
 
@@ -563,6 +663,30 @@ export default function DemoPage({ params }: DemoPageProps) {
             restaurant={restaurant}
             menuItems={menuItems}
             isAdmin={false}
+          />
+        ) : restaurant.theme === 'barber' ? (
+          <BarberiaTemplate
+            restaurant={restaurant}
+            menuItems={menuItems}
+            isAdmin={true}
+          />
+        ) : restaurant.theme === 'spa' ? (
+          <SalonBellezaTemplate
+            restaurant={restaurant}
+            menuItems={menuItems}
+            isAdmin={true}
+          />
+        ) : restaurant.theme === 'floreria' ? (
+          <FloreriaTemplate
+            restaurant={restaurant}
+            menuItems={menuItems}
+            isAdmin={true}
+          />
+        ) : restaurant.theme === 'nails' ? (
+          <NailsTemplate
+            restaurant={restaurant}
+            menuItems={menuItems}
+            isAdmin={true}
           />
         ) : (
           <JapaneseTemplate
