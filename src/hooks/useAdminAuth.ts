@@ -11,9 +11,8 @@ export function useAdminAuth({ restaurantName, sessionTimeout = 60 }: UseAdminAu
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
 
-  const authKey = `linkangri_admin_${restaurantName}`
-  const timestampKey = `linkangri_admin_timestamp`
-
+  const authKey = `digitaliza_admin_${restaurantName}`
+  const timestampKey = `digitaliza_admin_timestamp`
   const checkAuthStatus = useCallback(() => {
     if (typeof window === 'undefined') {
       setIsLoading(false)

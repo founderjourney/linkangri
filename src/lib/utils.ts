@@ -1,4 +1,4 @@
-// Utility functions for LinkAngri
+// Utility functions for Digitaliza
 
 // Simple class merger (simplified version without clsx dependency)
 export function cn(...classes: (string | undefined | null | false)[]): string {

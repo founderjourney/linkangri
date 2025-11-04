@@ -641,7 +641,7 @@ export default function DemoPage({ params }: DemoPageProps) {
     <>
       {/* Demo Banner */}
       <div className="fixed top-0 left-0 right-0 bg-yellow-400 text-black text-center py-2 text-sm font-medium z-50">
-        🚀 DEMO LinkAngri - Página de muestra para {restaurant.name}
+        🚀 DEMO Digitaliza - Página de muestra para {restaurant.name}
       </div>
 
       {/* Add top padding to account for demo banner */}
@@ -714,7 +714,7 @@ export function generateMetadata({ params }: DemoPageProps) {
 
   if (!demoData) {
     return {
-      title: 'Demo not found - LinkAngri',
+      title: 'Demo not found - Digitaliza',
       description: 'Restaurant demo not found',
     }
   }
@@ -722,11 +722,10 @@ export function generateMetadata({ params }: DemoPageProps) {
   const { restaurant } = demoData
 
   return {
-    title: `${restaurant.name} - Demo LinkAngri`,
-    description: `Demo de ${restaurant.name}: ${restaurant.description}. Gestión restaurantera móvil-first con LinkAngri.`,
-    keywords: ['demo', 'restaurant', restaurant.theme, 'mobile', 'menu', 'reservations'],
+title: `${restaurant.name} - Demo Digitaliza`,
+    description: `Demo de ${restaurant.name}: ${restaurant.description}. Gestión de links para negocios con Digitaliza.`,
     openGraph: {
-      title: `${restaurant.name} - LinkAngri Demo`,
+      title: `${restaurant.name} - Digitaliza Demo`,
       description: restaurant.description,
       type: 'website',
     },

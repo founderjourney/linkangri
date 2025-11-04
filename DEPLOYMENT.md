@@ -1,4 +1,4 @@
-# 🚀 LinkAngri - Production Deployment Guide
+# 🚀 Digitaliza - Production Deployment Guide
 
 ## 🌐 Vercel Deployment (Recommended)
 
@@ -15,7 +15,7 @@ DATABASE_URL=file:./prod.db
 NEXTAUTH_SECRET=your-super-secret-production-key-min-32-chars
 NEXTAUTH_URL=https://your-domain.vercel.app
 NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
-NEXT_PUBLIC_APP_NAME=LinkAngri
+NEXT_PUBLIC_APP_NAME=Digitaliza
 ```
 
 ### Step 3: Deploy

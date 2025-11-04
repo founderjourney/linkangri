@@ -9,10 +9,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'LinkAngri - Restaurant Management Platform',
-  description: 'Mobile-first restaurant management with professional web presence',
-  keywords: ['restaurant', 'mobile', 'management', 'menu', 'whatsapp', 'reservations'],
-  authors: [{ name: 'LinkAngri Team' }],
+title: 'Digitaliza - Link Aggregator Platform',
+  description: 'Create your own link aggregator for your business',
+  authors: [{ name: 'Digitaliza Team' }],
   robots: {
     index: true,
     follow: true,

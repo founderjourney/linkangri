@@ -91,7 +91,7 @@ export default function RegisterPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl font-bold text-gray-900 mb-2"
           >
-            🚀 Únete a LinkAngri
+            🚀 Únete a Digitaliza
           </motion.h1>
           <p className="text-gray-600 text-lg">
             Crea tu menú digital en minutos. Gestión móvil, QR codes, integración WhatsApp.
@@ -149,7 +149,7 @@ export default function RegisterPage() {
                   />
                   {slug && (
                     <p className="text-sm text-gray-500 mt-1">
-                      URL: linkangri.com/demo/{slug}
+                      URL: digitaliza.com/demo/{slug}
                     </p>
                   )}
                 </div>
@@ -305,7 +305,7 @@ export default function RegisterPage() {
                 <h3 className="font-semibold text-gray-900 mb-4">Resumen:</h3>
                 <div className="space-y-2 text-sm">
                   <p><strong>Restaurante:</strong> {registrationData.name}</p>
-                  <p><strong>URL:</strong> linkangri.com/demo/{slug}</p>
+                  <p><strong>URL:</strong> digitaliza.com/demo/{slug}</p>
                   <p><strong>Template:</strong> {cuisineOptions.find(opt => opt.value === registrationData.cuisineType)?.label}</p>
                   <p><strong>WhatsApp:</strong> {registrationData.whatsapp}</p>
                   <p><strong>Dirección:</strong> {registrationData.address}</p>

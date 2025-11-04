@@ -182,7 +182,7 @@ export default function AdminLogin({
             <span className="text-lg">💡</span>
             <div>
               <p className="font-medium mb-1">¿Olvidaste tu contraseña?</p>
-              <p className="opacity-80">Contacta al soporte técnico de LinkAngri para recuperar el acceso.</p>
+              <p className="opacity-80">Contacta al soporte técnico de Digitaliza para recuperar el acceso.</p>
             </div>
           </div>
         </div>

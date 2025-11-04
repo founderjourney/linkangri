@@ -1,4 +1,4 @@
-// Prisma schema for LinkAngri - Optimized for Turso (SQLite)
+// Prisma schema for Digitaliza - Optimized for Turso (SQLite)
 
 generator client {
   provider = "prisma-client-js"

@@ -8,14 +8,14 @@ export default function HomePage() {
           {/* Hero Section */}
           <div className="mb-16 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              <span className="text-japanese-primary">LinkAngri</span>
+              <span className="text-japanese-primary">Digitaliza</span>
               <br />
               <span className="text-2xl md:text-4xl font-normal text-gray-600">
-                Restaurant Management Platform
+                Plataforma de Gestión de Negocios Locales
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Gestiona tu restaurante desde el móvil. Menú dinámico, reservas por WhatsApp,
+              Gestiona tu negocio local desde el móvil. Menú dinámico, reservas por WhatsApp,
               y presencia web profesional en minutos.
             </p>
           </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
               ¿Listo para empezar?
             </h2>
             <p className="text-gray-600 mb-6">
-              Crea la presencia digital de tu restaurante en menos de 5 minutos
+              Crea la presencia digital de tu negocio local en menos de 5 minutos
             </p>
             <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
               <Link href="/register" className="btn-primary">

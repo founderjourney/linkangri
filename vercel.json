@@ -11,12 +11,12 @@
   },
   "crons": [],
   "env": {
-    "NEXT_PUBLIC_APP_NAME": "LinkAngri",
-    "NEXT_PUBLIC_SITE_URL": "https://linkangri.vercel.app"
+    "NEXT_PUBLIC_APP_NAME": "Digitaliza",
+    "NEXT_PUBLIC_SITE_URL": "https://digitaliza.vercel.app"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_APP_NAME": "LinkAngri"
+      "NEXT_PUBLIC_APP_NAME": "Digitaliza"
     }
   },
   "regions": ["iad1"],

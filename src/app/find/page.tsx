@@ -75,7 +75,7 @@ export default function FindRestaurantPage() {
             🔍 Encuentra tu Restaurante
           </motion.h1>
           <p className="text-gray-600 text-lg">
-            Busca restaurantes registrados en LinkAngri
+            Busca empresas registradas en Digitaliza
           </p>
         </div>
 
@@ -202,7 +202,7 @@ export default function FindRestaurantPage() {
                 ¿Tienes un restaurante?
               </h3>
               <p className="text-gray-600 mb-6">
-                Únete a LinkAngri y crea tu menú digital en minutos
+                Únete a Digitaliza y crea tu página de links en minutos
               </p>
               <Link
                 href="/register"

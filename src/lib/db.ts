@@ -1,4 +1,4 @@
-// Database connection and utilities for LinkAngri
+// Database connection and utilities for Digitaliza
 import { PrismaClient } from '@prisma/client'
 import type { OrderItem } from '@/types'
 

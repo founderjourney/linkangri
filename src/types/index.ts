@@ -1,4 +1,4 @@
-// Core types for LinkAngri platform
+// Core types for Digitaliza platform
 
 export type CuisineType = 'japanese' | 'italian' | 'mexican' | 'coffee' | 'general' | 'barber' | 'spa' | 'floreria' | 'nails'
 

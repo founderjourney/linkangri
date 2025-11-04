@@ -2,7 +2,7 @@
 const fs = require('fs')
 const path = require('path')
 
-console.log('🔍 Testing LinkAngri Project Structure...\n')
+console.log('🔍 Testing Digitaliza Project Structure...\n')
 
 const requiredFiles = [
   'package.json',
