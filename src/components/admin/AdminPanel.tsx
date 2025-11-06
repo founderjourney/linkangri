@@ -7,7 +7,9 @@ import { cn } from '@/lib/utils'
 import MenuManagementView from './MenuManagementView'
 import SettingsView from './SettingsView'
 import DashboardView from './DashboardView'
-import QRCodeView from './QRCodeView'
+import dynamic from 'next/dynamic'
+
+const QRCodeView = dynamic(() => import('./QRCodeView'), { ssr: false })
 
 interface AdminPanelProps {
   restaurant: Restaurant
